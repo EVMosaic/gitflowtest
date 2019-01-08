@@ -3,17 +3,18 @@ html {
 }
 
 h1 {
-    color: #ffff00;
+    color: #ff00ff;
     font-family: 'Comic Sans', sans-serif;
-    animation: pulse 1s linear infinite alternate;
+    animation: pulse 1s linear infinite;
+    width: 200px;
 
 }
 
 @keyframes pulse {
     0% {
-        transform: scale(0,0);
+        transform: rotateZ(0);
     }
     100% {
-        transform: scale(3,3);
+        transform: rotateZ(359deg);
     }
 }
