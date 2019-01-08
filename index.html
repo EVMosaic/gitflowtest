@@ -17,6 +17,17 @@
       }
       setInterval(change, 1000);
     </script>
+
+    <style>
+      .nav{
+        color: white;
+      }
+    
+    .nav li:hover{
+      color: red;
+      cursor: pointer;
+    }
+    </style>
   </head>
   <body>
     <div id="background"><h1>Git Flow</h1></div>
@@ -28,8 +39,8 @@
       the body copy.
     </p>
 
-    <nav>
-      <ul>
+    <nav  style="background-color: blue">
+      <ul class="nav" style="list-style: none; display: flex; flex-direction: row; justify-content: space-around; padding: 1rem 0; font-family: sans-serif; font-weight: bold;">
         <li>About</li>
         <li>Contact</li>
         <li>Home</li>
