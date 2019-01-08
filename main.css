@@ -1,0 +1,20 @@
+html {
+    background-color: #00ff00;
+}
+
+h1 {
+    color: #ff00ff;
+    font-family: 'Comic Sans', sans-serif;
+    animation: pulse 1s linear infinite;
+    width: 200px;
+
+}
+
+@keyframes pulse {
+    0% {
+        transform: rotateZ(0);
+    }
+    100% {
+        transform: rotateZ(359deg);
+    }
+}
