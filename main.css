@@ -18,3 +18,9 @@ h1 {
         transform: rotateZ(359deg);
     }
 }
+
+
+.img-center {
+    width: 100%;
+    text-align: center;
+}
